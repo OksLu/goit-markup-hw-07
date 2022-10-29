@@ -1,0 +1,27 @@
+.address {
+  font-style: normal;
+}
+
+.address__list {
+  padding-left: 0;
+}
+.address__item {
+  margin-bottom: 9px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.address__link {
+  color: var(--white-color);
+}
+.address__contacts {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color var(--duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
